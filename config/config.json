@@ -2,7 +2,7 @@
   "development": {
 
     "username": "aetertinas",
-    "password": "arcadia1",
+    "password": "********",
     "database": "project",
     "host": "mydbinstance.cooiyblusq4z.ap-northeast-2.rds.amazonaws.com",
     "dialect": "mysql",
