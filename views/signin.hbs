@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="./images/Rgrapes.png">
+  <title>project_BeforeMedi</title>
+
+
+  <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Open+Sans:400,300'>
+<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/icon?family=Material+Icons'>
+
+      <link rel="stylesheet" href="./stylesheets/style2.css">
+      <link rel="stylesheet" href="./stylesheets/font-awesome-4.5.0/css/font-awesome.min.css"> <!-- Font Awesome, https://fortawesome.github.io/Font-Awesome/ -->
+      <link rel="stylesheet" href="./stylesheets/bootstrap.min.css">                       <!-- Bootstrap style, http://v4-alpha.getbootstrap.com/ -->
+      <link rel="stylesheet" href="./stylesheets/templatemo-style.css">                    <!-- Templatemo style -->
+      <link rel="stylesheet" href="./stylesheets/semantic.css">
+
+
+</head>
+
+<body>
+
+  <div class="cotn_principal">
+<div class="cont_centrar">
+
+  <div class="cont_login">
+<div class="cont_info_log_sign_up">
+      <div class="col_md_login">
+<div class="cont_ba_opcitiy">
+
+        <h2>로그인</h2>
+
+  <p>Email과 비밀번호를 입력해주세요</p>
+  <br>
+
+  <button class="btn_login" onclick="cambiar_login()">로그인</button>
+  </div>
+  </div>
+<div class="col_md_sign_up">
+<div class="cont_ba_opcitiy">
+  <h2>회원가입</h2>
+
+  <p>Email,이름,비밀번호</p>
+  <br>
+
+  <button class="btn_sign_up" onclick="cambiar_sign_up()">회원가입</button>
+</div>
+  </div>
+       </div>
+
+
+    <div class="cont_back_info">
+       <div class="cont_img_back_grey">
+       <img src="./images/signin.jpg" alt="" />
+       </div>
+
+    </div>
+<div class="cont_forms" >
+    <div class="cont_img_back_">
+       <img src="./images/signin.jpg" alt="" />
+       </div>
+
+<form id="signin" name="signin" method="post" action="signin">
+ <div class="cont_form_login">
+<a href="#" onclick="ocultar_login_sign_up()" ><i class="material-icons">&#xE5C4;</i></a>
+   <h2>로그인</h2>
+<input type="text" placeholder="이메일" name="email"/>
+<input type="password" placeholder="비밀번호" name="password" />
+<button class="btn_login" type="submit">로그인</button>
+
+</form>
+  </div>
+
+  <form id="signup" name="signup" method="post" action="/signup">
+   <div class="cont_form_sign_up">
+<a href="#" onclick="ocultar_login_sign_up()"><i class="material-icons">&#xE5C4;</i></a>
+     <h2>회원가입</h2>
+<input type="text" name="email" placeholder="이메일" />
+<input type="text" name="firstname" placeholder="이름" />
+<!--input type="text" name="lastname" placeholder="Lastname" /-->
+<input type="password" name="password" placeholder="비밀번호" />
+<input type="password" placeholder="비밀번호확인" />
+<button class="btn_sign_up" type="submit">회원가입</button>
+</form>
+  </div>
+
+
+
+    </div>
+
+  </div>
+ </div>
+
+ <div class="row">
+     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+         <p class="text-xs-center tm-copyright-text">Copyright &copy; project_BeforeMedi</p>
+     </div>
+ </div>
+
+</div>
+
+    <script  src="./javascripts/index.js"></script>
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+callback({
+   "dps":[
+    {
+      "createdAt":"2018-05-17",
+      "bloodGlucose":110},
+    {"createdAt":"2018-05-18","bloodGlucose":108},
+    {"createdAt":"2018-05-19","bloodGlucose":115},
+    {"createdAt":"2018-05-20","bloodGlucose":160},
+    {"createdAt":"2018-05-21","bloodGlucose":111},
+    {"createdAt":"2018-05-22","bloodGlucose":140},
+    {"createdAt":"2018-05-23","bloodGlucose":121},
+    {"createdAt":"2018-05-24","bloodGlucose":180},
+    {"createdAt":"2018-05-25","bloodGlucose":144}
+  ]
+})

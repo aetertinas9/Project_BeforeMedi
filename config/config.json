@@ -1,0 +1,25 @@
+{
+  "development": {
+
+    "username": "aetertinas",
+    "password": "arcadia1",
+    "database": "project",
+    "host": "mydbinstance.cooiyblusq4z.ap-northeast-2.rds.amazonaws.com",
+    "dialect": "mysql",
+    "port":"3306"
+  },
+  "test": {
+    "username": "",
+    "password": null,
+    "database": "",
+    "host": "",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "",
+    "password": null,
+    "database": "",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
